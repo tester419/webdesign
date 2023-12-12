@@ -44,7 +44,7 @@ body{
 }
 
 .main-container{
-    background-image:url(../img/main-img.jpg);
+    background-image:url(./main-img.jpg);
     background-size:cover;
     min-height:100vh;
     color:white;
