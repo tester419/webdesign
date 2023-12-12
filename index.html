@@ -3,8 +3,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>HTML&CSS</title>
-        <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="../css/index.css">
+        <link rel="stylesheet" href="../css/responsive.css">
     </head>
     <body>
         
@@ -41,10 +41,11 @@
             <div class="container">
                 <h3 class="about-title">About<span>.</span></h3>
                         <div class="about-section">
-                            <img src="about-img.jpg">
+                            <img src="../img/about-img.jpg">
                             <div class="about-content">
                                 <h3>Webデザインとは</h3>
-                                <h4>ウェブサイトは、インターネット上でアクセス可能なデジタルな情報の集まりです。
+                                <h4>
+                                    ウェブサイトは、インターネット上でアクセス可能なデジタルな情報の集まりです。
                                     テキスト、画像、動画などのメディアを含み、特定のテーマや目的に基づいて構築されます。
                                     ユーザーはウェブブラウザを通じてアクセスし、情報を閲覧したり、製品を購入したり、
                                     インタラクティブなコンテンツに参加したりします。
@@ -60,7 +61,27 @@
 
         <div class="feature-container">
             <div class="container">
-                <h3>Feature<span>.</span></h3>
+                <h3 class="feature-title">Feature<span>.</span></h3>
+                <div class="feature-section">
+
+                    <div class="html-content ln-content">
+                        <img src="../img/HTML.png">
+                        <p class="text-content">
+                            HTML（Hypertext Markup Language）は、ウェブページを作成するための標準的なマークアップ言語です。
+                            HTMLは、テキストベースのタグや要素を使用して、文書の構造やコンテンツを記述します。
+                            これにより、ブラウザがページを解釈し、適切に表示することが可能になります。
+                        </p>
+                    </div>
+
+                    <div class="css-content ln-content">
+                        <img src="../img/CSS.png">
+                        <p class="text-content">
+                            CSS（Cascading Style Sheets）は、ウェブページやウェブアプリケーションの外観やスタイルを管理するためのスタイルシート言語です。
+                            HTMLが文書の構造を定義するのに対し、CSSはその文書をどのように表示するかを指定します。
+                        </p>
+                    </div>
+
+                </div>
             </div>
         </div>
 
@@ -68,9 +89,54 @@
 
         <div class="contact-container">
             <div class="container">
-                <h3>Contact<span>.</span></h3>
+                <h3 class="contact-title">Contact<span>.</span></h3>
+                <div class="contact-section">
+                    <div class="name-form form">
+                        <p>Name</p>
+                        <input class="btn" type="text">
+                    </div>
+                    <div class="mail-form form">
+                        <p>Mail</p>
+                        <input class="btn" type="text">
+                    </div>
+                    <div class="detail-form form">
+                        <p>Detail</p>
+                        <textarea class="btn"></textarea>
+                    </div>
+                    <div class="submit-form">
+                        <input class="btn submit" type="submit" value="送信">
+                    </div>
+                </div>
             </div>
         </div>
+
+        <footer class="footer">
+            <div class="container">
+
+                <div class="footer-left">
+
+                </div>
+                
+                <div class="footer-right">
+                    <ul class="navlist">
+                        <li class="nav-items">
+                            <a href="#">About.</a>
+                        </li>
+                        <li class="nav-items">
+                            <a href="#">Feature.</a>
+                        </li>
+                        <li class="nav-items">
+                            <a href="#">Contact.</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="footer-center">
+                    <p class="footer-copy">Copyright ⒸShiratama419</p>
+                </div>
+
+            </div>
+        </footer>
         
     </body>
 </html>
