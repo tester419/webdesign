@@ -1,0 +1,118 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family: "Hiragino Kaku Gothic ProN";
+    margin:0;
+}
+
+.header{
+    background-color:rgba(255, 255, 255, 0.5);
+    height:60px;
+    width:100%;
+    position:fixed;
+    top:0;
+    z-index:10;
+}
+
+.header-right{
+    float:right;
+}
+
+.navlist{
+    display:flex;
+    justify-content:space-between;
+    margin:0;
+}
+
+.nav-items{
+    list-style:none;
+}
+
+.nav-items a{
+    color:black;
+    display:block;
+    line-height:60px;
+    padding:0 20px;
+    margin:0 30px;
+    border-radius:100px;
+}
+
+.nav-items a:hover{
+    background-color:rgba(39,252,255,0.1);
+}
+
+.main-container{
+    background-image:url(../img/main-img.jpg);
+    background-size:cover;
+    min-height:100vh;
+    color:white;
+    text-align:center;
+}
+
+.main-container > .container{
+    padding:100px;
+    text-align:center;
+}
+
+.main-container h1{
+    font-size:120px;
+}
+
+.main-container h2{
+    font-size:80px;
+}
+
+.about-container{
+    text-align:center;
+}
+
+.about-title{
+    font-size:40px;
+    margin:100px auto 0 auto;
+}
+
+.about-section{
+    display:flex;
+}
+
+.about-section img{
+    margin:50px;
+    height:400px;
+    width:40%;
+}
+
+.about-content{
+    width:60%;
+    height:400px;
+    padding:100px 60px;
+}
+
+.about-content h3{
+    font-size:30px;
+}
+
+.about-content h4{
+    font-size:18px;
+}
+
+
+
+
+
+
+.feature-container{
+    height:400px;
+    background-color:#f2f2f2;
+    text-align:center;
+    font-size:40px;
+}
+
+.contact-container{
+    height:500px;
+    text-align:center;
+    font-size:40px;
+}
+
+
