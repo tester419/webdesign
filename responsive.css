@@ -1,0 +1,33 @@
+@media(max-width:670px){
+    .header-left{
+        width:0;
+    }
+
+    .header-right{
+        width:100%;
+    }
+
+    .nav-items a{
+        color:black;
+        display:block;
+        line-height:60px;
+        border-radius:20px;
+        padding:0 10px;
+        margin:0 10px;
+    }
+
+    .main-container{
+        height:auto;
+        width:100%;
+    }
+
+
+
+    .main-container h1{
+        font-size:40px;
+    }
+
+    .main-container h2{
+        font-size:30px;
+    }
+}
