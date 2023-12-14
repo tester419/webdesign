@@ -21,7 +21,9 @@
         width:100%;
     }
 
-
+    .main-container > .container{
+        padding:30px;
+    }
 
     .main-container h1{
         font-size:40px;
@@ -29,5 +31,105 @@
 
     .main-container h2{
         font-size:30px;
+    }
+
+    .about-title{
+        font-size:30px;
+        margin:30px auto 0 auto;
+    }
+
+    .about-section img{
+        margin:20px;
+        height:auto;
+        width:40%;
+    }
+
+    .about-content{
+        width:60%;
+        height:auto;
+        padding:10px;
+    }
+
+    .about-content h3{
+        font-size:20px;
+    }
+
+    .about-content h4{
+        font-size:10px;
+    }
+
+    .feature-container{
+        margin-top:20px;
+    }
+    
+    .feature-title{
+        font-size:30px;
+        padding-top:50px;
+    }
+    
+    .ln-content{
+        width:50%;
+        padding:5%;
+    }
+
+    .ln-content img{
+        width:50%;
+    }
+    
+    .text-content{
+        font-size:10px;
+    }
+
+    .contact-container{
+        margin-top:20px;
+    }
+    
+    .contact-title{
+        font-size:30px;
+        padding-top:10px;
+    }
+    
+    .contact-section{
+        text-align:center;
+    }
+    
+    .form{
+        margin:10px auto;
+    }
+    
+    .form > p{
+        font-size:10px;
+        margin:5px auto;
+    }
+    
+    .btn{
+        font-size:18px;
+        border-radius:10px;
+        width:80%;
+    }
+    
+    .submit{
+        width:60px;
+        height:30px;
+    }
+    
+    
+    .footer{
+        margin-top:100px;
+        height:100px;
+        width:100%;
+    }
+    
+    .footer-right{
+        width:100%;
+    }
+
+    .navlist{
+        padding:0;
+    }
+    
+    .footer-copy{
+        width:100%;
+        text-align:center;
     }
 }
