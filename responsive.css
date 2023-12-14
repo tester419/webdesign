@@ -106,12 +106,13 @@
         font-size:18px;
         border-radius:10px;
         width:80%;
-        text-align:center;
     }
     
     .submit{
         width:60px;
         height:30px;
+        text-align:center;
+        color:black;
     }
     
     
